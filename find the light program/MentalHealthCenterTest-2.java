@@ -119,16 +119,8 @@ public class MentalHealthCenterTest{
 
 		s.addProfessional(new Therapist(   "DR.Reem" ,    "PanicAttacks",11000,"conflit"));
 		s.addProfessional(new Psychiatrist("DR.Sami" , "ChildhoodTrauma" ,19500,"Antidepressant"));
-		s.addProfessional(new Psychologist("DR.Sara" , "SexualOrientation ",15000,"SexualOrientation & gender identity"));
-		//s.addProfessional(new Therapist("DR.Abeer"   ,"Relationships",9500));
-		//System.out.println(s.toString());
-	    // s.removeProfessional(new Psychiatrist("DR.Abdullah" ,"Addictions" ,20000));
-		//System.out.println(s.toString());
-		//Therapist a= new Therapist("DR.Abeer"   ,"Relationships",9500);
-		// s.updateSpecialization(a.name,"Relationships & communication");
-		//System.out.println(s.toString());
-		// System.out.println("THE TOTAL BONUS: "+s.getTotalBonus());
-		// System.out.println("THE AVERAGE BONUS: "+s.getAverageBonus());
+		s.addProfessional(new Psychologist("DR.Sara" , "trama ",15000,"SexualOrientation & gender identity"));
+		
 		
 		try {
             File f = new File("MentalHealthCenter.dat");
@@ -190,3 +182,4 @@ public class MentalHealthCenterTest{
 		
 	}
 }
+
